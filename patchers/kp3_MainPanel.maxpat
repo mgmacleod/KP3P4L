@@ -40,17 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 578.5, 221.0, 150.0, 20.0 ],
-					"text" : "112. 18. 187. 146."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-58",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -465,7 +454,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Saple Bank B",
+							"parameter_longname" : "Sample Bank B",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "SampleB",
 							"parameter_type" : 2
@@ -520,7 +509,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Saple Bank A",
+							"parameter_longname" : "Sample Bank A",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "SampleA",
 							"parameter_type" : 2
@@ -1700,7 +1689,7 @@
 
 					}
 ,
-					"varname" : "fxRelease"
+					"varname" : "Level"
 				}
 
 			}
@@ -1923,8 +1912,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Saple Bank A", "SampleA", 0 ],
-			"obj-10" : [ "Saple Bank B", "SampleB", 0 ],
+			"obj-1" : [ "Sample Bank A", "SampleA", 0 ],
+			"obj-10" : [ "Sample Bank B", "SampleB", 0 ],
 			"obj-11" : [ "Sample Bank D", "SampleD", 0 ],
 			"obj-12" : [ "Program Select", "ProgramMenu", 0 ],
 			"obj-2" : [ "Sample Bank C", "SampleC", 0 ],
