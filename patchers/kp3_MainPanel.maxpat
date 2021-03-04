@@ -40,6 +40,130 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "live.comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 170.0, 389.0, 150.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.0, 56.0, 41.0, 18.0 ],
+					"text" : "Sample",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 399.0, 468.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 147.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Sample Bank D",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "SampleD",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "D",
+					"texton" : "D",
+					"varname" : "SampleD"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 384.0, 453.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 101.666666666666671, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Saple Bank B",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "SampleB",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "B",
+					"varname" : "SampleB"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 369.0, 438.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 124.333333333333343, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Sample Bank C",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "SampleC",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "C",
+					"texton" : "C",
+					"varname" : "SampleC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 354.0, 423.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 79.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Saple Bank A",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "SampleA",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"texton" : "A",
+					"varname" : "SampleA"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1230,7 +1354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 123.25, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 120.0, 29.0, 18.0 ],
+					"presentation_rect" : [ 15.0, 0.0, 29.0, 18.0 ],
 					"text" : "Hold",
 					"textjustification" : 1
 				}
@@ -1246,7 +1370,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 61.0, 123.25, 23.71875, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.640625, 140.0, 23.71875, 23.0 ],
+					"presentation_rect" : [ 17.640625, 18.0, 23.71875, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -1274,7 +1398,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 129.0, 379.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 53.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 58.5, 3.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
@@ -1301,7 +1425,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 29.0, 343.0, 54.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 53.0, 54.0, 110.0 ],
+					"presentation_rect" : [ 52.0, 59.0, 54.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
@@ -1521,7 +1645,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "Saple Bank A", "SampleA", 0 ],
+			"obj-10" : [ "Saple Bank B", "SampleB", 0 ],
+			"obj-11" : [ "Sample Bank D", "SampleD", 0 ],
 			"obj-12" : [ "Program Select", "ProgramMenu", 0 ],
+			"obj-2" : [ "Sample Bank C", "SampleC", 0 ],
 			"obj-23" : [ "Pad X Value", "PadX", 0 ],
 			"obj-24" : [ "Pad Y Value", "PadY", 0 ],
 			"obj-30" : [ "Pad On/Off", "PadOnOff", 0 ],
